@@ -14,7 +14,11 @@ defineProps<{
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
-        <BreadcrumbPage>{{ title }}</BreadcrumbPage>
+        <BreadcrumbPage
+          class="font-cal leading-[0.95] font-extrabold -tracking-[0.02em]"
+        >
+          {{ title }}
+        </BreadcrumbPage>
       </BreadcrumbItem>
     </BreadcrumbList>
   </Breadcrumb>

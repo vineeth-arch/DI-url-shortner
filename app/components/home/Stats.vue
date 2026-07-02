@@ -19,7 +19,9 @@ const { rawStats } = useGithubStats()
     >
       <div class="relative z-10 mx-auto max-w-xl space-y-4 text-center">
         <h2
-          class="text-3xl font-semibold"
+          class="
+            font-cal text-3xl leading-[0.95] font-extrabold -tracking-[0.02em]
+          "
         >
           {{ $t('home.stats.title') }}
         </h2>

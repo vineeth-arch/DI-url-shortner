@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
     '@nuxt/eslint',
+    '@nuxt/fonts',
     '@pinia/nuxt',
     '@vueuse/motion/nuxt',
     'shadcn-nuxt',

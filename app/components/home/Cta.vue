@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const { github } = useAppConfig()
-</script>
-
 <template>
   <section class="py-16">
     <div class="mx-auto max-w-6xl px-6">
@@ -13,7 +9,10 @@ const { github } = useAppConfig()
       >
         <div class="text-center">
           <h2
-            class="text-3xl font-semibold text-balance"
+            class="
+              font-cal text-3xl leading-[0.95] font-extrabold -tracking-[0.02em]
+              text-balance
+            "
           >
             {{ $t('home.cta.title') }}
           </h2>
@@ -25,20 +24,6 @@ const { github } = useAppConfig()
             <Button
               as-child
               size="lg"
-            >
-              <a
-                :href="`${github}?tab=readme-ov-file#%EF%B8%8F-deployment`"
-                target="_blank"
-                :title="$t('home.cta.button')"
-              >
-                {{ $t('home.cta.button') }}
-              </a>
-            </Button>
-
-            <Button
-              as-child
-              size="lg"
-              variant="outline"
             >
               <NuxtLink to="/dashboard" :title="$t('dashboard.title')">
                 {{ $t('dashboard.title') }}

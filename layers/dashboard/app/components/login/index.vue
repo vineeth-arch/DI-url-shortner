@@ -41,7 +41,11 @@ async function handleSubmit() {
 <template>
   <Card class="w-full max-w-sm">
     <CardHeader>
-      <CardTitle class="text-2xl">
+      <CardTitle
+        class="
+          font-cal text-2xl leading-[0.95] font-extrabold -tracking-[0.02em]
+        "
+      >
         {{ $t('login.title') }}
       </CardTitle>
       <CardDescription>

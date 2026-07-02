@@ -44,7 +44,7 @@ const { rawStats } = useGithubStats()
                     class="size-full rounded-full"
                   >
                 </span>
-                <span class="text-xl font-black">{{ title }}</span>
+                <span class="font-cal text-xl font-black">{{ title }}</span>
               </NuxtLink>
 
               <button
@@ -94,6 +94,7 @@ const { rawStats } = useGithubStats()
                 "
               >
                 <Button
+                  v-if="github"
                   as-child
                   variant="outline"
                   size="sm"
@@ -155,7 +156,7 @@ const { rawStats } = useGithubStats()
                     class="size-full rounded-full"
                   >
                 </span>
-                <span class="text-xl font-black">{{ title }}</span>
+                <span class="font-cal text-xl font-black">{{ title }}</span>
               </div>
             </NuxtLink>
 
